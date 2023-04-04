@@ -196,5 +196,210 @@ Was passiert, wenn du keine Zahl, sondern einen Text in der Konsole eingibst?
 
 </details>
 
+---
+<details>
+<summary><b>Aufgabe 7 - Code vorhersagen </b></summary>
+
+Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
+
+````
+fun main() {ㅤ
+    val sunnyDay: Boolean = true
+    val rainy: Boolean = falseㅤ
+    if (sunnyDay ) {ㅤㅤㅤㅤㅤㅤ
+        if (!rainy) {ㅤ
+            println("Heute fahre ich zum See")
+        }ㅤ
+    }else {ㅤ
+        println("Heute bleibe ich zu Hause")
+    }ㅤ
+}ㅤ
+ㅤ
+````
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe7.kt*
+
+</details>
+
+---
+
+<details>
+<summary><b>Aufgabe 8 - Code vorhersagen </b></summary>
+
+Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
+
+````
+fun main() {ㅤㅤ
+    val uhrzeit: Int = 7ㅤㅤ
+    val arbeitstag: Boolean = trueㅤㅤ
+    val regen: Boolean = falseㅤㅤ
+    if (uhrzeit>=6) {ㅤㅤ
+        println("Der Wecker klingelt")ㅤㅤ
+        if (!arbeitstag) {ㅤㅤ
+            println("Ich bleibe einfach liegen")ㅤㅤ
+        }else {ㅤㅤ
+            println("Ich mache mich für den Tag bereit")ㅤㅤ
+            if (regen) {ㅤㅤ
+                println("Ich fahre mit dem Auto")ㅤㅤ
+            }else {ㅤㅤ
+                println("Heute nehme ich das Fahrrad")
+            }ㅤㅤ
+        }ㅤㅤ
+    }ㅤㅤ
+}
+````
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe8.kt*
+
+</details>
+
+---
+
+
+<details>
+<summary><b>Aufgabe 9 - Code vorhersagen </b></summary>
+
+Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
+
+````
+fun main() {ㅤㅤ
+    val tiere: List<String> = listOf("Katze", "Giraffe", "Orca", "Bär" )ㅤㅤ
+    when(tiere[2]) {ㅤㅤ
+        "Katze" -> println("Löwe wird mit ${"Löwe".length} Buchstaben geschrieben")ㅤㅤ
+        "Giraffe" -> println("Giraffe wird mit ${"Giraffe".length} Buchstaben geschrieben")ㅤㅤ
+        "Orca" -> println("Orca wird mit ${"Orca".length} Buchstaben geschrieben")ㅤㅤ
+        "Bär" -> println("Bär wird mit ${"Bär".length} Buchstaben geschrieben")ㅤㅤ
+
+    }
+}
+````
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe9.kt*
+
+</details>
+
+---
+
+<details>
+<summary><b>Aufgabe 10 - Code vorhersagen </b></summary>
+
+Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
+
+````
+fun main() {ㅤㅤ
+    elementInListe("The Wire")ㅤㅤ
+    elementInListe("Breaking Bad")ㅤㅤ
+    elementInListe("The Office")ㅤㅤ
+}
+
+fun elementInListe(element: String) {ㅤㅤ
+    val serien: List<String> = listOf("Game of Thrones", "How i Met your Mother", "Breaking Bad", "Stranger Things")ㅤㅤ
+    val serieInListe = serien.contains(element)ㅤㅤ
+    if(serieInListe) {ㅤㅤ
+        println("Die Serie $element befindet sich in der Liste")
+    }else{ㅤㅤ
+        println("Die Serie $element befindet sich nicht in der Liste")
+    }ㅤㅤ
+}
+````
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe10.kt*
+
+</details>
+
+---
+
+<details>
+<summary><b>Aufgabe 11 - Code vorhersagen </b></summary>
+
+Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
+
+````
+fun main() {
+
+    //Kunde 1
+    val kunde1Name = "Bruce"ㅤㅤ
+    val kunde1Preis = 346ㅤㅤ
+    gutscheinBekommen(kunde1Preis, kunde1Name)
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+    //Kunde2ㅤㅤ
+    val kunde2Name = "Tony"ㅤㅤ
+    val kunde2Preis = 42ㅤㅤ
+    gutscheinBekommen(kunde2Preis, kunde2Name)ㅤㅤ
+    
+    //Kunde3
+    val kunde3Name = "Wanda"ㅤㅤ
+    val kunde3Preis = 188ㅤㅤ
+    gutscheinBekommen(kunde3Preis, kunde3Name)ㅤㅤ
+    
+}
+
+fun gutscheinBekommen(preis: Int, name: String) {
+
+    if (preis > 200) {ㅤㅤ
+        println("$name bekommt einen Gutschein im Wert von 20€")
+    }else if (preis > 100) {ㅤㅤ
+        println("$name bekommt einen Gutschein im Wert von 10€")
+    }else if (preis > 50) {ㅤㅤ
+        println("$name bekommt einen Gutschein im Wert von 5€")
+    }else{ㅤㅤ
+        println("$name bekommt keinen Gutschein")
+    }ㅤㅤ
+}
+````
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe11.kt*
+
+</details>
+
+---
+
+<details>
+<summary><b>Aufgabe 12 - Code vorhersagen </b></summary>
+
+In dem gegebenen Code soll eine Ampelschaltung simuliert werden. Die Logik für die Schaltung liegt in der Funktion ampel(), die in der main()-Funktion nur aufgerufen wird. Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
+
+
+````
+fun main () {ㅤㅤ
+   var ampelPhase = "Grün"ㅤㅤ
+    ampelPhase = ampel(ampelPhase)ㅤㅤ
+    ampelPhase = ampel(ampelPhase)ㅤㅤ
+    ampel(ampelPhase)ㅤㅤ
+
+
+}
+
+fun ampel(phase: String): String {ㅤㅤ
+    var neuePhase: String = phase
+    when(phase) {ㅤㅤ
+        "Grün" -> {ㅤㅤ
+            println("Die Ampel leuchtet grün, also dürfen die Autos jetzt fahren")ㅤㅤ
+            neuePhase = "Gelb"ㅤㅤ
+        }
+        "Gelb" -> {ㅤㅤ
+            println("Die Ampel leuchtet gelb, also müssen die Autos sich zum Anhalten bereit machen")
+            neuePhase = "Rot"
+        }
+        "Rot" -> {
+            println("Die Ampel leuchtet rot, also müssen die Autos warten")
+            neuePhase = "Grün"
+        }
+    }ㅤㅤㅤㅤㅤㅤ
+    return neuePhase
+}
+````
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe12.kt*
+
+</details>
+
+---
 
 
