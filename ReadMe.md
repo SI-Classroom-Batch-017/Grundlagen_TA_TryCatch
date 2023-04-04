@@ -12,8 +12,6 @@
 #### Hinweise zur Bearbeitung:
 
 - Achte auf einen sauberen Quellcode, insbesondere Einrückungen sind wichtig!
-- Wichtige Materialien für heute:
-  - [Handbuch: Funktionen → Implementieren → try-catch implementieren](https://docs.google.com/document/d/13SyoQ3tgIr4T9tiUl42V5kiBGQwV4Lk-XA2SsKf-va0/edit#heading=h.rj9vymd1wa4z)
 
 
 ---
