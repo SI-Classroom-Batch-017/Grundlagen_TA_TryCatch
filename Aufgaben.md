@@ -402,4 +402,17 @@ fun ampel(phase: String): String {ㅤㅤ
 
 ---
 
+<details>
+<summary><b>Aufgabe 13 Bonus - If-Else </b></summary>
+
+Schreibe jetzt ein kleines Programm, dass ein simples Würfelspiel darstellen soll. Es sollen zwei Würfel geworfen werden und die Ergebnisse miteinander verglichen werden. Jeder Würfel gehört zu einem Spieler und je nachdem wer die höhere Zahl geworfen hat soll in der Konsole ein anderer Text ausgegeben werden:
+
+- Spieler1 gewinnt: Spieler1 hat mit *Augenzahl* gegenüber Spieler2 mit *Augenzahl* gewonnen.
+- Unentschieden: Beiden Spieler haben eine *Augenzahl* gewürfelt.
+- Spieler2 gewinnt: Spieler2 hat mit *Augenzahl* gegenüber Spieler1 mit *Augenzahl* gewonnen.
+
+
+**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe12.kt*
+
+</details>
 
