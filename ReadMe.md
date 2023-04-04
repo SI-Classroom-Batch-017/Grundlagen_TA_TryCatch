@@ -186,7 +186,7 @@ Probier dann dein Programm aus.
 Lass es ein paar mal laufen und gib dann über die
 Konsole verschiedene Alter ein.  
 Macht der Türsteher seinen Job?  
-Was passiert, wenn du keine Zahl, sondern einen Text in der Konsole eingibst?
+Was passiert, wenn du keine Zahl, sondern Buchstaben in der Konsole eingibst?
 
 **Modul für die Aufgabe:** *Aufgabe6*  
 **Datei für die Aufgabe:** *4_TryCatch.kt*
