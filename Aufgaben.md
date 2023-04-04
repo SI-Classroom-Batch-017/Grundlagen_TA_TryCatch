@@ -117,12 +117,10 @@ In diesem Beispiel erzeugt die Funktion immer einen Laufzeitfehler.
 In der main()-Funktion wird die Funktion buyItem() aufgerufen und es entsteht ein Laufzeitfehler.  
 
 Deine Aufgabe ist es den erzeugten Laufzeitfehler aufzufangen, indem du den Funktionsaufruf buyItem() in einen Try-Block packst.  
-Erstelle dazu noch einen Catch-Block mit dem Parameter “e: Exception”.  
-Im Catch-Block soll jetzt mit der println()-Funktion der Text “Ein Fehler ist aufgetreten: “ ausgegeben werden.  
-Dann wird auch der Fehler "e" über die println()-Funktion ausgegeben.
-Am Ende wird noch eine eigene Fehlermeldung “Dieses Produkt ist leider nicht mehr verfügbar.” über die println()-Funktion ausgegeben.
+Erstelle dazu einen Catch-Block mit dem Parameter “e: Exception”. Im Catch-Block soll jetzt mit der println()-Funktion der Text “Ein Fehler ist aufgetreten: “ ausgegeben werden.  
+Darauffolgend soll auch der Fehler "e" über die println()-Funktion ausgegeben. Am Ende soll eine eigene Fehlermeldung “Dieses Produkt ist leider nicht mehr verfügbar.” über die println()-Funktion ausgegeben werden.
 
-Danach soll das Programm beim Ausführen den erzeugten Fehler richtig behandeln und den gewünschten Text ausgeben.
+Das Programm soll also beim Ausführen den erzeugten Fehler richtig behandeln und den gewünschten Text ausgeben.
 
 **Modul für die Aufgabe:** *Aufgabe3*  
 **Datei für die Aufgabe:** *1_TryCatch.kt*
