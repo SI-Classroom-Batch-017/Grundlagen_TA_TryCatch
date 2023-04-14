@@ -172,7 +172,7 @@ Wir wollen einen Türsteher simulieren, der unter 18-Jährige nicht in einen Clu
 Befolge dazu folgende Schritte:
 
 1. Das Alter einer Person wird über die Konsole mit der readln()-Funktion eingelesen.  
-Die Eingabe wird in der Variable alterInput gespeichert.
+Die Eingabe wird in der Variable `alterInput` gespeichert.
 2. Dann wird ein Try-Catch-Block erstellt, indem wir die Eingabe versuchen 
 zu einem Integer zu konvertieren. Hier kann ein Laufzeitfehler erzeugt werden.  
 Schreibe dazu im Try-Block folgende Zeile: `var alter: Int = alterInput.toInt()`
@@ -183,7 +183,7 @@ Ansonsten geben wir: "Sorry, kein Einlass zur Party. Ist ab 18." in der Konsole 
 
 
 Probier dann dein Programm aus.   
-Lass es ein paar mal laufen und gib dann über die
+Lass es ein paar Mal laufen und gib dann über die
 Konsole verschiedene Alter ein.  
 Macht der Türsteher seinen Job?  
 Was passiert, wenn du keine Zahl, sondern Buchstaben in der Konsole eingibst?
