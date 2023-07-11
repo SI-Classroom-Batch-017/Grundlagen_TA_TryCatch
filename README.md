@@ -4,22 +4,29 @@
 <br>
 
 
-#### Beschreibung:
+### Beschreibung:
+Der try-catch Block wird benutzt, um Laufzeitfehler abzufangen.  
+Wenn du Funktionen benutzt, die in bestimmten Fällen einen Fehler erzeugen können, 
+musst du die Verwendung dieser Funktion in einen try Block packen. 
+Der zugehörige catch Block fängt den Fehler, welcher auftreten könnte auf 
+und soll Code enthalten der sicherstellt, 
+dass das Programm trotz des Fehlers richtig weiter läuft.
 
-- Heute dreht sich alles um den try-catch Block, mit dem man Laufzeitfehler abfangen kann. Wenn du Funktionen benutzt, die in bestimmten Fällen einen Fehler erzeugen können, musst du die Verwendung dieser Methode in einen try Block packen. Der zugehörige catch Block fängt den Fehler, wenn nötig, auf und soll Code enthalten der sicherstellt, dass das Programm trotz des Fehlers richtig weiter läuft.
 
+### Hinweise zur Bearbeitung:
 
-#### Hinweise zur Bearbeitung:
-
+- Lies erst die ganze Aufgabenstellung, bevor du die Aufgabe bearbeitest.
 - Achte auf einen sauberen Quellcode, insbesondere Einrückungen sind wichtig!
-
+- Nutze den Debugger, wenn du nicht mehr weiter weißt.
+- Achte darauf deinen Code sinnvoll zu kommentieren.
 
 ---
 
 <details>
 <summary> <b> Aufgabe 1 - Vorhersagen: Try-Catch mit Laufzeitfehler. </b> </summary>
 
-In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird. Es geht dabei um die Buchung von Sitzplätzen in einem Flugzeug.
+In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.  
+Es geht dabei um die Buchung von Sitzplätzen in einem Flugzeug.
 
 Schau dir den Codeausschnitt an.
 - Was wird hier ausgegeben?
@@ -50,7 +57,7 @@ fun reserveSeats(numberOfSeats: Int) {
 }
 ```
 
-Hinweis: Eine Variable muss nicht zwingend innerhalb einer Funktion angelegt werden, 
+> Hinweis: Eine Variable muss nicht zwingend innerhalb einer Funktion angelegt werden, 
 sie kann auch außerhalb angelegt werden. 
 
 **Modul für die Aufgabe:** *Aufgabe1*  
@@ -64,8 +71,7 @@ sie kann auch außerhalb angelegt werden.
 <summary> <b> Aufgabe 2 - Vorhersagen: Try-Catch mit Laufzeitfehler. </b> </summary>
 
 
-
-In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.
+In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.  
 Hier geht es um das Bestellen von Schuhen und was passiert, wenn keine Schuhe mehr da sind.
 
 Schau dir den Codeausschnitt an.
@@ -107,18 +113,18 @@ fun orderShoes() {
 <details>
 <summary> <b> Aufgabe 3 - Try-Catch I</b> </summary>
 
-
-
-In dieser Aufgabe ist eine Funktion mit dem Namen buyItem() gegeben, mit der ein Kunde ein Produkt kaufen kann. 
+In dieser Aufgabe ist eine Funktion `buyItem()` gegeben, mit der ein Kunde ein Produkt kaufen kann.  
 Diese erzeugt einen Fehler, falls das Produkt nicht mehr vorhanden ist.  
-In diesem Beispiel erzeugt die Funktion immer einen Laufzeitfehler.   
-In der main()-Funktion wird die Funktion buyItem() aufgerufen und es entsteht ein Laufzeitfehler.  
+In diesem Beispiel erzeugt die Funktion immer einen Laufzeitfehler.
 
-Deine Aufgabe ist es den erzeugten Laufzeitfehler aufzufangen, indem du den Funktionsaufruf buyItem() in einen Try-Block packst.  
-Erstelle dazu einen Catch-Block mit dem Parameter “e: Exception”. Im Catch-Block soll jetzt mit der println()-Funktion der Text “Ein Fehler ist aufgetreten: “ ausgegeben werden.  
-Darauffolgend soll auch der Fehler "e" über die println()-Funktion ausgegeben. Am Ende soll eine eigene Fehlermeldung “Dieses Produkt ist leider nicht mehr verfügbar.” über die println()-Funktion ausgegeben werden.
+Deine Aufgabe ist es den erzeugten Laufzeitfehler aufzufangen, indem du den Funktionsaufruf `buyItem()` in einen Try-Block packst.  
+Erstelle dazu einen Catch-Block mit dem Parameter `e: Exception`.
+Im Catch-Block soll jetzt mit der println()-Funktion der Text `Ein Fehler ist aufgetreten:  zusammen mit der Exception `e` ausgegeben werden.  
+Am Ende sollte auf der Konsole also stehen:
 
-Das Programm soll also beim Ausführen den erzeugten Fehler richtig behandeln und den gewünschten Text ausgeben.
+```
+Ein Fehler ist aufgetreten: item not in stock exception
+```
 
 **Modul für die Aufgabe:** *Aufgabe3*  
 **Datei für die Aufgabe:** *1_TryCatch.kt*
@@ -130,15 +136,15 @@ Das Programm soll also beim Ausführen den erzeugten Fehler richtig behandeln un
 <details>
 <summary> <b> Aufgabe 4 - Try-Catch II</b> </summary>
 
-In dieser Aufgabe ist eine Liste "numbers" mit 4 Elementen vorgegeben. 
-Darunter versuchen wir der Variable "number" das 10. Element aus der Liste zu geben.
+In dieser Aufgabe ist eine Liste `numbers` mit 4 Elementen vorgegeben.  
+Darunter versuchen wir der Variable `number` das 10. Element aus der Liste zu geben.
 Das geht nicht, da wir in der Liste nur 4 Elemente haben.
 Das heißt, es wird ein Laufzeitfehler erzeugt.
 
 Deine Aufgabe ist es nicht den Fehler zu beheben, sondern nur ihn aufzufangen. 
 Schreibe einen Try-Catch-Block, der diesen Fehler auffängt. 
 Dabei soll eine Fehlermeldung (denk dir eine Fehlermeldung aus) mit der println()-Funktion in der Konsole ausgegeben werden 
-und der Wert der Variable “number” soll auf -1 gesetzt werden.
+und der Wert der Variable `number` soll auf `-1` gesetzt werden.
 
 **Modul für die Aufgabe:** *Aufgabe4*  
 **Datei für die Aufgabe:** *2_TryCatch.kt*
@@ -149,12 +155,12 @@ und der Wert der Variable “number” soll auf -1 gesetzt werden.
 <details>
 <summary> <b> Aufgabe 5 - Try-Catch III</b> </summary>
 
-In dieser Aufgabe ist die Funktion divideByZero() mit einer Zahl "number" als Parameter gegeben.
-Die Funktion teilt die Zahl durch 0. 
+In dieser Aufgabe ist die Funktion `divideByZero(number: Int)` gegeben.
+Die Funktion teilt die gegebene Zahl durch 0. 
 In der Mathematik können wir aber keine Zahl durch 0 teilen, deswegen erzeugt die Funktion 
 einen Laufzeitfehler.
 
-Deine Aufgabe ist es, die Funktion divideByZero() in der main()-Funktion aufzurufen 
+Deine Aufgabe ist es, die Funktion `divideByZero()` aufzurufen 
 und den erzeugten Laufzeitfehler mit einem Try-Catch-Block abzufangen.
 
 **Modul für die Aufgabe:** *Aufgabe5*  
@@ -167,22 +173,20 @@ und den erzeugten Laufzeitfehler mit einem Try-Catch-Block abzufangen.
 <details>
 <summary> <b> Aufgabe 6 - Try-Catch IV</b> </summary>
 
-Wir wollen einen Türsteher simulieren, der unter 18-Jährige nicht in einen Club lässt.
+Wir wollen einen Türsteher simulieren, der Personen unter 18 nicht in einen Club lässt.
 
 Befolge dazu folgende Schritte:
 
-1. Das Alter einer Person wird über die Konsole mit der readln()-Funktion eingelesen.  
-Die Eingabe wird in der Variable `alterInput` gespeichert.
+1. Das Alter einer Person wird über die Konsole mit readln() eingelesen.
 2. Dann wird ein Try-Catch-Block erstellt, indem wir die Eingabe versuchen 
-zu einem Integer zu konvertieren. Hier kann ein Laufzeitfehler erzeugt werden.  
-Schreibe dazu im Try-Block folgende Zeile: `var alter: Int = alterInput.toInt()`
+zu einem Integer zu konvertieren. Hier kann ein Laufzeitfehler erzeugt werden.
 3. Im Catch-Block geben wir eine geeignete Fehlermeldung aus, wenn ein Laufzeitfehler entsteht.
-4. Im Try-Block geben wir: "Willkommen, hier ist dein Bier, let's party!" in der Konsole aus,
-wenn das Alter größer oder gleich 18 ist.   
-Ansonsten geben wir: "Sorry, kein Einlass zur Party. Ist ab 18." in der Konsole aus.
+4. Im Try-Block geben wir: `Willkommen, hier ist dein Bier, let's party!` in der Konsole aus,
+wenn das Alter größer oder gleich 18 ist.  
+Ansonsten geben wir: `Sorry, kein Einlass zur Party. Ist ab 18.` in der Konsole aus.
 
 
-Probier dann dein Programm aus.   
+Probier dann dein Programm aus.  
 Lass es ein paar Mal laufen und gib dann über die
 Konsole verschiedene Alter ein.  
 Macht der Türsteher seinen Job?  
@@ -204,7 +208,7 @@ Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wi
 fun main() {ㅤ
     val sunnyDay: Boolean = true
     val rainy: Boolean = falseㅤ
-    if (sunnyDay ) {ㅤㅤㅤㅤㅤㅤ
+    if (sunnyDay) {ㅤㅤㅤㅤㅤㅤ
         if (!rainy) {ㅤ
             println("Heute fahre ich zum See")
         }ㅤ
@@ -215,8 +219,8 @@ fun main() {ㅤ
 ㅤ
 ````
 
-
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe7.kt*
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe7.kt*
 
 </details>
 
@@ -236,7 +240,7 @@ fun main() {ㅤㅤ
         println("Der Wecker klingelt")ㅤㅤ
         if (!arbeitstag) {ㅤㅤ
             println("Ich bleibe einfach liegen")ㅤㅤ
-        }else {ㅤㅤ
+        } else {ㅤㅤ
             println("Ich mache mich für den Tag bereit")ㅤㅤ
             if (regen) {ㅤㅤ
                 println("Ich fahre mit dem Auto")ㅤㅤ
@@ -248,8 +252,8 @@ fun main() {ㅤㅤ
 }
 ````
 
-
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe8.kt*
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe8.kt*
 
 </details>
 
@@ -269,13 +273,12 @@ fun main() {ㅤㅤ
         "Giraffe" -> println("Giraffe wird mit ${"Giraffe".length} Buchstaben geschrieben")ㅤㅤ
         "Orca" -> println("Orca wird mit ${"Orca".length} Buchstaben geschrieben")ㅤㅤ
         "Bär" -> println("Bär wird mit ${"Bär".length} Buchstaben geschrieben")ㅤㅤ
-
     }
 }
 ````
 
-
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe9.kt*
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe9.kt*
 
 </details>
 
@@ -304,8 +307,8 @@ fun elementInListe(element: String) {ㅤㅤ
 }
 ````
 
-
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe10.kt*
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe10.kt*
 
 </details>
 
@@ -340,18 +343,18 @@ fun gutscheinBekommen(preis: Int, name: String) {
 
     if (preis > 200) {ㅤㅤ
         println("$name bekommt einen Gutschein im Wert von 20€")
-    }else if (preis > 100) {ㅤㅤ
+    } else if (preis > 100) {ㅤㅤ
         println("$name bekommt einen Gutschein im Wert von 10€")
-    }else if (preis > 50) {ㅤㅤ
+    } else if (preis > 50) {ㅤㅤ
         println("$name bekommt einen Gutschein im Wert von 5€")
-    }else{ㅤㅤ
+    } else{ㅤㅤ
         println("$name bekommt keinen Gutschein")
     }ㅤㅤ
 }
 ````
 
-
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe11.kt*
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe11.kt*
 
 </details>
 
@@ -365,12 +368,10 @@ In dem gegebenen Code soll eine Ampelschaltung simuliert werden. Die Logik für 
 
 ````
 fun main () {ㅤㅤ
-   var ampelPhase = "Grün"ㅤㅤ
+    var ampelPhase = "Grün"ㅤㅤ
     ampelPhase = ampel(ampelPhase)ㅤㅤ
     ampelPhase = ampel(ampelPhase)ㅤㅤ
     ampel(ampelPhase)ㅤㅤ
-
-
 }
 
 fun ampel(phase: String): String {ㅤㅤ
@@ -393,8 +394,8 @@ fun ampel(phase: String): String {ㅤㅤ
 }
 ````
 
-
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe12.kt*
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe12.kt*
 
 </details>
 
@@ -410,7 +411,8 @@ Schreibe jetzt ein kleines Programm, dass ein simples Würfelspiel darstellen so
 - Spieler2 gewinnt: Spieler2 hat mit *Augenzahl* gegenüber Spieler1 mit *Augenzahl* gewonnen.
 
 
-**Datei für die Aufgabe:** *Grundlagen_TA_TryCatch → Aufgabe12.kt*
+**Modul für die Aufgabe:** *Aufgabe13*  
+**Datei für die Aufgabe:** *Aufgabe13.kt*
 
 </details>
 
