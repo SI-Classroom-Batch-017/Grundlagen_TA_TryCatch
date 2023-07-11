@@ -1,7 +1,7 @@
 
-<h1 align="center">Grundlagen der Programmierung</h1>
-<h3 align="center">Try-Catch</h3>
-<br>
+# Grundlagen der Programmierung
+## Try-Catch
+
 
 
 ### Beschreibung:
@@ -14,16 +14,15 @@ dass das Programm trotz des Fehlers richtig weiter läuft.
 
 
 ### Hinweise zur Bearbeitung:
-
 - Lies erst die ganze Aufgabenstellung, bevor du die Aufgabe bearbeitest.
 - Achte auf einen sauberen Quellcode, insbesondere Einrückungen sind wichtig!
 - Nutze den Debugger, wenn du nicht mehr weiter weißt.
 - Achte darauf deinen Code sinnvoll zu kommentieren.
 
 ---
+### Aufgabe 1 - Vorhersagen: Try-Catch mit Laufzeitfehler I
 
 <details>
-<summary> <b> Aufgabe 1 - Vorhersagen: Try-Catch mit Laufzeitfehler. </b> </summary>
 
 In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.  
 Es geht dabei um die Buchung von Sitzplätzen in einem Flugzeug.
@@ -66,10 +65,9 @@ sie kann auch außerhalb angelegt werden.
 </details>
 
 ---
+### Aufgabe 2 - Vorhersagen: Try-Catch mit Laufzeitfehler II
 
 <details>
-<summary> <b> Aufgabe 2 - Vorhersagen: Try-Catch mit Laufzeitfehler. </b> </summary>
-
 
 In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.  
 Hier geht es um das Bestellen von Schuhen und was passiert, wenn keine Schuhe mehr da sind.
@@ -110,8 +108,9 @@ fun orderShoes() {
 
 ---
 
+### Aufgabe 3 - Try-Catch I
+
 <details>
-<summary> <b> Aufgabe 3 - Try-Catch I</b> </summary>
 
 In dieser Aufgabe ist eine Funktion `buyItem()` gegeben, mit der ein Kunde ein Produkt kaufen kann.  
 Diese erzeugt einen Fehler, falls das Produkt nicht mehr vorhanden ist.  
@@ -133,8 +132,9 @@ Ein Fehler ist aufgetreten: item not in stock exception
 
 ---
 
+### Aufgabe 4 - Try-Catch II
+
 <details>
-<summary> <b> Aufgabe 4 - Try-Catch II</b> </summary>
 
 In dieser Aufgabe ist eine Liste `numbers` mit 4 Elementen vorgegeben.  
 Darunter versuchen wir der Variable `number` das 10. Element aus der Liste zu geben.
@@ -152,8 +152,10 @@ und der Wert der Variable `number` soll auf `-1` gesetzt werden.
 </details>
 
 ---
+
+### Aufgabe 5 - Try-Catch III
+
 <details>
-<summary> <b> Aufgabe 5 - Try-Catch III</b> </summary>
 
 In dieser Aufgabe ist die Funktion `divideByZero(number: Int)` gegeben.
 Die Funktion teilt die gegebene Zahl durch 0. 
@@ -170,8 +172,9 @@ und den erzeugten Laufzeitfehler mit einem Try-Catch-Block abzufangen.
 
 ---
 
+### Aufgabe 6 - Try-Catch IV
+
 <details>
-<summary> <b> Aufgabe 6 - Try-Catch IV</b> </summary>
 
 Wir wollen einen Türsteher simulieren, der Personen unter 18 nicht in einen Club lässt.
 
@@ -199,8 +202,10 @@ Was passiert, wenn du keine Zahl, sondern Buchstaben in der Konsole eingibst?
 </details>
 
 ---
+
+### Aufgabe 7 - Code vorhersagen I
+
 <details>
-<summary><b>Aufgabe 7 - Code vorhersagen </b></summary>
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -226,8 +231,9 @@ fun main() {ㅤ
 
 ---
 
+### Aufgabe 8 - Code vorhersagen II
+
 <details>
-<summary><b>Aufgabe 8 - Code vorhersagen </b></summary>
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -259,9 +265,9 @@ fun main() {ㅤㅤ
 
 ---
 
+### Aufgabe 9 - Code vorhersagen III
 
 <details>
-<summary><b>Aufgabe 9 - Code vorhersagen </b></summary>
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -284,8 +290,9 @@ fun main() {ㅤㅤ
 
 ---
 
+### Aufgabe 10 - Code vorhersagen IV
+
 <details>
-<summary><b>Aufgabe 10 - Code vorhersagen </b></summary>
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -314,8 +321,9 @@ fun elementInListe(element: String) {ㅤㅤ
 
 ---
 
+### Aufgabe 11 - Code vorhersagen V
+
 <details>
-<summary><b>Aufgabe 11 - Code vorhersagen </b></summary>
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -360,8 +368,9 @@ fun gutscheinBekommen(preis: Int, name: String) {
 
 ---
 
+### Aufgabe 12 - Code vorhersagen VI
+
 <details>
-<summary><b>Aufgabe 12 - Code vorhersagen </b></summary>
 
 In dem gegebenen Code soll eine Ampelschaltung simuliert werden. Die Logik für die Schaltung liegt in der Funktion ampel(), die in der main()-Funktion nur aufgerufen wird. Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -401,8 +410,9 @@ fun ampel(phase: String): String {ㅤㅤ
 
 ---
 
+### Aufgabe 13 - _Bonus_ If-Else
+
 <details>
-<summary><b>Aufgabe 13 Bonus - If-Else </b></summary>
 
 Schreibe jetzt ein kleines Programm, dass ein simples Würfelspiel darstellen soll. Es sollen zwei Würfel geworfen werden und die Ergebnisse miteinander verglichen werden. Jeder Würfel gehört zu einem Spieler und je nachdem wer die höhere Zahl geworfen hat soll in der Konsole ein anderer Text ausgegeben werden:
 
