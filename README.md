@@ -34,7 +34,7 @@ Notiere dir deine Antwort. (z.B. in einem Kommentar)
 Führe dann den Code aus.
 - Wird das ausgegeben, was du dir notiert hast?
 
-```
+```kotlin
 var availableSeats = 6
 
 fun main() {
@@ -79,7 +79,7 @@ Notiere dir deine Antwort. (z.B. in einem Kommentar)
 Führe dann den Code aus.
 - Wird das ausgegeben, was du dir notiert hast?
 
-```
+```kotlin
 var numberOfShoes = 0
 
 fun main() {
@@ -237,7 +237,7 @@ fun main() {ㅤ
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
-````
+```kotlin
 fun main() {ㅤㅤ
     val uhrzeit: Int = 7ㅤㅤ
     val arbeitstag: Boolean = trueㅤㅤ
@@ -256,7 +256,7 @@ fun main() {ㅤㅤ
         }ㅤㅤ
     }ㅤㅤ
 }
-````
+```
 
 **Modul für die Aufgabe:** *Aufgabe7-12*  
 **Datei für die Aufgabe:** *Aufgabe8.kt*
@@ -271,7 +271,7 @@ fun main() {ㅤㅤ
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
-````
+```kotlin
 fun main() {ㅤㅤ
     val tiere: List<String> = listOf("Katze", "Giraffe", "Orca", "Bär" )ㅤㅤ
     when(tiere[2]) {ㅤㅤ
@@ -281,7 +281,7 @@ fun main() {ㅤㅤ
         "Bär" -> println("Bär wird mit ${"Bär".length} Buchstaben geschrieben")ㅤㅤ
     }
 }
-````
+```
 
 **Modul für die Aufgabe:** *Aufgabe7-12*  
 **Datei für die Aufgabe:** *Aufgabe9.kt*
@@ -296,7 +296,7 @@ fun main() {ㅤㅤ
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
-````
+```kotlin
 fun main() {ㅤㅤ
     elementInListe("The Wire")ㅤㅤ
     elementInListe("Breaking Bad")ㅤㅤ
@@ -312,7 +312,7 @@ fun elementInListe(element: String) {ㅤㅤ
         println("Die Serie $element befindet sich nicht in der Liste")
     }ㅤㅤ
 }
-````
+```
 
 **Modul für die Aufgabe:** *Aufgabe7-12*  
 **Datei für die Aufgabe:** *Aufgabe10.kt*
@@ -327,7 +327,7 @@ fun elementInListe(element: String) {ㅤㅤ
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
-````
+```kotlin
 fun main() {
 
     //Kunde 1
@@ -359,7 +359,7 @@ fun gutscheinBekommen(preis: Int, name: String) {
         println("$name bekommt keinen Gutschein")
     }ㅤㅤ
 }
-````
+```
 
 **Modul für die Aufgabe:** *Aufgabe7-12*  
 **Datei für die Aufgabe:** *Aufgabe11.kt*
@@ -375,7 +375,7 @@ fun gutscheinBekommen(preis: Int, name: String) {
 In dem gegebenen Code soll eine Ampelschaltung simuliert werden. Die Logik für die Schaltung liegt in der Funktion ampel(), die in der main()-Funktion nur aufgerufen wird. Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
 
-````
+```kotlin
 fun main () {ㅤㅤ
     var ampelPhase = "Grün"ㅤㅤ
     ampelPhase = ampel(ampelPhase)ㅤㅤ
@@ -401,7 +401,7 @@ fun ampel(phase: String): String {ㅤㅤ
     }ㅤㅤㅤㅤㅤㅤ
     return neuePhase
 }
-````
+```
 
 **Modul für die Aufgabe:** *Aufgabe7-12*  
 **Datei für die Aufgabe:** *Aufgabe12.kt*
