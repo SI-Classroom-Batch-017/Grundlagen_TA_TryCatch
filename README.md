@@ -116,9 +116,9 @@ In dieser Aufgabe ist eine Funktion `buyItem()` gegeben, mit der ein Kunde ein P
 Diese erzeugt einen Fehler, falls das Produkt nicht mehr vorhanden ist.  
 In diesem Beispiel erzeugt die Funktion immer einen Laufzeitfehler.
 
-Deine Aufgabe ist es den erzeugten Laufzeitfehler aufzufangen, indem du den Funktionsaufruf `buyItem()` in einen Try-Block packst.  
+Deine Aufgabe ist es den erzeugten Laufzeitfehler aufzufangen, indem du den Funktionsaufruf `buyItem()` in der `main()` in einen Try-Block packst.  
 Erstelle dazu einen Catch-Block mit dem Parameter `e: Exception`.
-Im Catch-Block soll jetzt mit der println()-Funktion der Text `Ein Fehler ist aufgetreten:  zusammen mit der Exception `e` ausgegeben werden.  
+Im Catch-Block soll jetzt mit der println()-Funktion der Text `Ein Fehler ist aufgetreten: ` zusammen mit der Exception `e` ausgegeben werden.  
 Am Ende sollte auf der Konsole also stehen:
 
 ```
