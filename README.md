@@ -1,8 +1,6 @@
-
-# Grundlagen der Programmierung
-## Try-Catch
-
-
+<h1 align="center">Grundlagen der Programmierung</h1>
+<h2 align="center">Try-Catch</h2>
+<br>
 
 ### Beschreibung:
 Der try-catch Block wird benutzt, um Laufzeitfehler abzufangen.  
