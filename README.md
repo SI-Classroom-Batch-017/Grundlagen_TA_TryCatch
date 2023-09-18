@@ -1,26 +1,22 @@
 <h1 align="center">Grundlagen der Programmierung</h1>
-<h2 align="center">Try-Catch</h2>
+<h3 align="center">Try-Catch</h3>
 <br>
 
-### Beschreibung:
-Der try-catch Block wird benutzt, um Laufzeitfehler abzufangen.  
-Wenn du Funktionen benutzt, die in bestimmten Fällen einen Fehler erzeugen können, 
-musst du die Verwendung dieser Funktion in einen try Block packen. 
-Der zugehörige catch Block fängt den Fehler, welcher auftreten könnte auf 
-und soll Code enthalten der sicherstellt, 
-dass das Programm trotz des Fehlers richtig weiter läuft.
+### Beschreibung
+Ein `try-catch`-Block wird verwendet, um Laufzeitfehler abzufangen. Wenn du Funktionen verwendest, die unter bestimmten Umständen Fehler verursachen können, sollte die Verwendung dieser Funktion in einen `try`-Block eingeschlossen werden. Der entsprechende `catch`-Block fängt den möglichen Fehler ab und sollte Code enthalten, der sicherstellt, dass das Programm trotz des Fehlers ordnungsgemäß weiterläuft.
 
-
-### Hinweise zur Bearbeitung:
-- Lies erst die ganze Aufgabenstellung, bevor du die Aufgabe bearbeitest.
-- Achte auf einen sauberen Quellcode, insbesondere Einrückungen sind wichtig!
-- Nutze den Debugger, wenn du nicht mehr weiter weißt.
-- Achte darauf deinen Code sinnvoll zu kommentieren.
-
----
-### Aufgabe 1 - Vorhersagen: Try-Catch mit Laufzeitfehler I
+> #### Hinweise zur Bearbeitung
+> - Achte darauf, dass dein Quellcode sauber ist. Besonders die Einrückungen sind wichtig!
+> - Verwende Dokumentationskommentare, um deinen Code zu erklären und zu dokumentieren.
+> - Teste deinen Code. Er sollte nicht nur kompilieren und ausführbar sein, sondern auch das gewünschte Ergebnis liefern.
+> - `Commit & Push` dein Ergebnis am Ende des Tages
+<br>
 
 <details>
+<summary><b>Aufgabe 1 - Vorhersagen: Try-Catch mit Laufzeitfehler I</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe1*  
+**Datei für die Aufgabe:** *1_TextAbgabe.kt*
 
 In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.  
 Es geht dabei um die Buchung von Sitzplätzen in einem Flugzeug.
@@ -57,16 +53,16 @@ fun reserveSeats(numberOfSeats: Int) {
 > Hinweis: Eine Variable muss nicht zwingend innerhalb einer Funktion angelegt werden, 
 sie kann auch außerhalb angelegt werden. 
 
-**Modul für die Aufgabe:** *Aufgabe1*  
-**Datei für die Aufgabe:** *1_TextAbgabe.kt*
-
 </details>
 
 ---
-### Aufgabe 2 - Vorhersagen: Try-Catch mit Laufzeitfehler II
 
 <details>
+<summary><b>Aufgabe 2 - Vorhersagen: Try-Catch mit Laufzeitfehler II</b></summary>
 
+**Modul für die Aufgabe:** *Aufgabe2*  
+**Datei für die Aufgabe:** *2_TextAbgabe.kt*
+    
 In dieser Aufgabe bekommst du Code gegeben, in dem ein try-catch Block verwendet wird.  
 Hier geht es um das Bestellen von Schuhen und was passiert, wenn keine Schuhe mehr da sind.
 
@@ -99,16 +95,15 @@ fun orderShoes() {
 }
 ```
 
-**Modul für die Aufgabe:** *Aufgabe2*  
-**Datei für die Aufgabe:** *2_TextAbgabe.kt*
-
 </details>
 
 ---
 
-### Aufgabe 3 - Try-Catch I
-
 <details>
+<summary><b>Aufgabe 3 - Try-Catch I</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe3*  
+**Datei für die Aufgabe:** *1_TryCatch.kt*
 
 In dieser Aufgabe ist eine Funktion `buyItem()` gegeben, mit der ein Kunde ein Produkt kaufen kann.  
 Diese erzeugt einen Fehler, falls das Produkt nicht mehr vorhanden ist.  
@@ -123,16 +118,15 @@ Am Ende sollte auf der Konsole also stehen:
 Ein Fehler ist aufgetreten: item not in stock exception
 ```
 
-**Modul für die Aufgabe:** *Aufgabe3*  
-**Datei für die Aufgabe:** *1_TryCatch.kt*
-
 </details>
 
 ---
 
-### Aufgabe 4 - Try-Catch II
-
 <details>
+<summary><b>Aufgabe 4 - Try-Catch II</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe4*  
+**Datei für die Aufgabe:** *2_TryCatch.kt*
 
 In dieser Aufgabe ist eine Liste `numbers` mit 4 Elementen vorgegeben.  
 Darunter versuchen wir der Variable `number` das 10. Element aus der Liste zu geben.
@@ -144,16 +138,15 @@ Schreibe einen Try-Catch-Block, der diesen Fehler auffängt.
 Dabei soll eine Fehlermeldung (denk dir eine Fehlermeldung aus) mit der println()-Funktion in der Konsole ausgegeben werden 
 und der Wert der Variable `number` soll auf `-1` gesetzt werden.
 
-**Modul für die Aufgabe:** *Aufgabe4*  
-**Datei für die Aufgabe:** *2_TryCatch.kt*
-
 </details>
 
 ---
 
-### Aufgabe 5 - Try-Catch III
-
 <details>
+<summary><b>Aufgabe 5 - Try-Catch III</b></summary>
+    
+**Modul für die Aufgabe:** *Aufgabe5*  
+**Datei für die Aufgabe:** *3_TryCatch.kt*
 
 In dieser Aufgabe ist die Funktion `divideByZero(number: Int)` gegeben.
 Die Funktion teilt die gegebene Zahl durch 0. 
@@ -163,16 +156,15 @@ einen Laufzeitfehler.
 Deine Aufgabe ist es, die Funktion `divideByZero()` aufzurufen 
 und den erzeugten Laufzeitfehler mit einem Try-Catch-Block abzufangen.
 
-**Modul für die Aufgabe:** *Aufgabe5*  
-**Datei für die Aufgabe:** *3_TryCatch.kt*
-
 </details>
 
 ---
 
-### Aufgabe 6 - Try-Catch IV
-
 <details>
+<summary><b>Aufgabe 6 - Try-Catch IV</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe6*  
+**Datei für die Aufgabe:** *4_TryCatch.kt*
 
 Wir wollen einen Türsteher simulieren, der Personen unter 18 nicht in einen Club lässt.
 
@@ -193,21 +185,19 @@ Konsole verschiedene Alter ein.
 Macht der Türsteher seinen Job?  
 Was passiert, wenn du keine Zahl, sondern Buchstaben in der Konsole eingibst?
 
-**Modul für die Aufgabe:** *Aufgabe6*  
-**Datei für die Aufgabe:** *4_TryCatch.kt*
-
-
 </details>
 
 ---
 
-### Aufgabe 7 - Code vorhersagen I
-
 <details>
+<summary><b>Aufgabe 7 - Code vorhersagen I</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe7.kt*
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
-````
+```kotlin
 fun main() {ㅤ
     val sunnyDay: Boolean = true
     val rainy: Boolean = falseㅤ
@@ -220,18 +210,17 @@ fun main() {ㅤ
     }ㅤ
 }ㅤ
 ㅤ
-````
-
-**Modul für die Aufgabe:** *Aufgabe7-12*  
-**Datei für die Aufgabe:** *Aufgabe7.kt*
+```
 
 </details>
 
 ---
 
-### Aufgabe 8 - Code vorhersagen II
-
 <details>
+<summary><b>Aufgabe 8 - Code vorhersagen II</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe8.kt*
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -256,16 +245,15 @@ fun main() {ㅤㅤ
 }
 ```
 
-**Modul für die Aufgabe:** *Aufgabe7-12*  
-**Datei für die Aufgabe:** *Aufgabe8.kt*
-
 </details>
 
 ---
 
-### Aufgabe 9 - Code vorhersagen III
-
 <details>
+<summary><b>Aufgabe 9 - Code vorhersagen III</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe9.kt*
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -281,16 +269,15 @@ fun main() {ㅤㅤ
 }
 ```
 
-**Modul für die Aufgabe:** *Aufgabe7-12*  
-**Datei für die Aufgabe:** *Aufgabe9.kt*
-
 </details>
 
 ---
 
-### Aufgabe 10 - Code vorhersagen IV
-
 <details>
+<summary><b>Aufgabe 10 - Code vorhersagen IV</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe10.kt*
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -312,16 +299,15 @@ fun elementInListe(element: String) {ㅤㅤ
 }
 ```
 
-**Modul für die Aufgabe:** *Aufgabe7-12*  
-**Datei für die Aufgabe:** *Aufgabe10.kt*
-
 </details>
 
 ---
 
-### Aufgabe 11 - Code vorhersagen V
-
 <details>
+<summary><b>Aufgabe 11 - Code vorhersagen V</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe11.kt*
 
 Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -359,16 +345,15 @@ fun gutscheinBekommen(preis: Int, name: String) {
 }
 ```
 
-**Modul für die Aufgabe:** *Aufgabe7-12*  
-**Datei für die Aufgabe:** *Aufgabe11.kt*
-
 </details>
 
 ---
 
-### Aufgabe 12 - Code vorhersagen VI
-
 <details>
+<summary><b>Aufgabe 12 - Code vorhersagen VI</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe7-12*  
+**Datei für die Aufgabe:** *Aufgabe12.kt*
 
 In dem gegebenen Code soll eine Ampelschaltung simuliert werden. Die Logik für die Schaltung liegt in der Funktion ampel(), die in der main()-Funktion nur aufgerufen wird. Guckt euch den gegebenen Code an und beschreibt was in der Konsole ausgegeben wird.
 
@@ -401,26 +386,21 @@ fun ampel(phase: String): String {ㅤㅤ
 }
 ```
 
-**Modul für die Aufgabe:** *Aufgabe7-12*  
-**Datei für die Aufgabe:** *Aufgabe12.kt*
-
 </details>
 
 ---
 
-### Aufgabe 13 - _Bonus_ If-Else
-
 <details>
+<summary><b>Aufgabe 13 - _Bonus_ If-Else</b></summary>
+
+**Modul für die Aufgabe:** *Aufgabe13*  
+**Datei für die Aufgabe:** *Aufgabe13.kt*
 
 Schreibe jetzt ein kleines Programm, dass ein simples Würfelspiel darstellen soll. Es sollen zwei Würfel geworfen werden und die Ergebnisse miteinander verglichen werden. Jeder Würfel gehört zu einem Spieler und je nachdem wer die höhere Zahl geworfen hat soll in der Konsole ein anderer Text ausgegeben werden:
 
 - Spieler1 gewinnt: Spieler1 hat mit *Augenzahl* gegenüber Spieler2 mit *Augenzahl* gewonnen.
 - Unentschieden: Beiden Spieler haben eine *Augenzahl* gewürfelt.
 - Spieler2 gewinnt: Spieler2 hat mit *Augenzahl* gegenüber Spieler1 mit *Augenzahl* gewonnen.
-
-
-**Modul für die Aufgabe:** *Aufgabe13*  
-**Datei für die Aufgabe:** *Aufgabe13.kt*
 
 </details>
 
